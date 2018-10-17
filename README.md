@@ -11,17 +11,17 @@ Test LoadBalancersfor routing misconfigs
 
 Есть возможность фильтровать коды ответов (например, не рассматривать 404-й код).
 
-Usage:
+
 ./loadbalancer.py -d domains.txt
 
--d, --domainsfile  - domain names file
---hs - Do not show size filter
---hc - Do not show code filter
+-d, --domainsfile  - domain names file</br>
+--hs - Do not show size filter</br>
+--hc - Do not show code filter</br>
 -A, --user-agent - User-Agents string
--p, --proxy - Proxy in http://127.0.0.1:8080 format
---xf - Filter exceptions. Disable checks for error-connection domains (if domain not resoved or connection time-out)
---debug - Show debug messages
--t, --threads - Threads num
---timeout - Request timeout in sec. Default 2
--f, --follow - Request follow redirectons
+-p, --proxy - Proxy in http://127.0.0.1:8080 format</br>
+--xf - Filter exceptions. Disable checks for error-connection domains (if domain not resoved or connection time-out)</br>
+--debug - Show debug messages</br>
+-t, --threads - Threads num</br>
+--timeout - Request timeout in sec. Default 2</br>
+-f, --follow - Request follow redirectons</br>
 
